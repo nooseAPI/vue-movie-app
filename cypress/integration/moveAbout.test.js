@@ -29,7 +29,7 @@ describe('About 페이지로 이동', () => {
       .contains('About')
     // About 이름이 'HEROPY'인지 확인!
     cy.get('.name')
-      .contains('HEROPY')
+      .contains('nooseAPI')
   })
 
   it('영화 상세 페이지로 이동합니다', () => {
@@ -56,6 +56,6 @@ describe('About 페이지로 이동', () => {
       .contains('About')
     // About 이름이 'HEROPY'인지 확인!
     cy.get('.name')
-      .contains('HEROPY')
+      .contains('nooseAPI')
   })
 })
